@@ -22,13 +22,14 @@ console.log(helloName());
 
 // 3. Function to add two numbers together & return the result
 function addNumbers( firstNumber ) {
+  return 2 + 3
   // return firstNumber + secondNumber;
 }
-
+console.log(addNumbers());
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
-
+function multiplyThree( firstMultiple ){
+return 
 }
 
 
