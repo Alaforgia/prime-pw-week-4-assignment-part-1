@@ -66,9 +66,22 @@ console.log(getLast(undefinedArray));
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
 function find( value, array ){
+let hasValue = false;
+    for (var i = 0; i < array.length; i++) {
+      if (array[i] === value){
+        hasValue = true;
+      }
 
+    }
+    return hasValue;
+    // if (hasValue == true) {
+    //   return true;
+    // }
+    // else {
+    //   return false;
+    // }
 }
-
+console.log(find(1, array0));
 // ----------------------
 // Stretch Goals
 // ----------------------
