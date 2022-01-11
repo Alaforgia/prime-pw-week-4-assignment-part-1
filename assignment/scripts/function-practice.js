@@ -75,16 +75,17 @@ let hasValue = false;
       if (array[i] === value){
         hasValue = true;
       }
-
     }
     return hasValue;
+  }
+
     // if (hasValue == true) {
     //   return true;
     // }
     // else {
     //   return false;
     // }
-}
+
 console.log(find(1, array0));
 // ----------------------
 // Stretch Goals
